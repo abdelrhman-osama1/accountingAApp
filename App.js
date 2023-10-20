@@ -4,6 +4,11 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import HomeScreen from './Home'
 import AccountCreateScreen from './AccountCreate' ;
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { faCartShopping } from '@fortawesome/free-solid-svg-icons/faCartShopping'
+library.add(faCartShopping)
+
+
 
 const Stack = createNativeStackNavigator();
   
@@ -19,6 +24,4 @@ const Stack = createNativeStackNavigator();
 }
 
 
-
-
-export default MyStack
+  export default MyStack

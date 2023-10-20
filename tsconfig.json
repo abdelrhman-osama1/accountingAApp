@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "removeComments": false,
+    "jsx": "react-jsx",
+    "moduleResolution": "node"
+  },
+  "extends": "expo/tsconfig.base"
+}
