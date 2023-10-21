@@ -5,8 +5,8 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import HomeScreen from './Home'
 import AccountCreateScreen from './AccountCreate' ;
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { faCartShopping } from '@fortawesome/free-solid-svg-icons/faCartShopping'
-library.add(faCartShopping)
+import { faMoneyCheckDollar } from '@fortawesome/free-solid-svg-icons/faMoneyCheckDollar'
+library.add(faMoneyCheckDollar)
 
 
 
