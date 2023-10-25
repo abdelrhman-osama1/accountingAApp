@@ -32,7 +32,7 @@ const Home = ({ navigation }) => {
     <Pressable onPress={() => navigation.navigate("AccountCreate")} style={styles.Pressable}>
     <Text style={styles.textt}>تسجيل دخول</Text>
     </Pressable>
-    <Pressable style={styles.Pressable} >
+    <Pressable onPress={() => navigation.navigate("AccountCreate")} style={styles.Pressable} >
     <Text style={styles.textt}>انشاء حساب</Text>
     </Pressable>
     </View>
